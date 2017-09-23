@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="assignment3.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+</head>
+      
+        
+<div id ="table">    
+ <table class="table">
+	<tbody>
+	<tr>
+	<td><img id= "wa" onclick= "play('wa')" src="Character_Images/wa.jpg"  alt="wa" class ="img"/></td>
+	<audio id ="wa" src ="Character_Sounds/wa.mp3" </audio>
+	<td><img id= "ra" onclick= "play('ra')" src="Character_Images/ra.jpg" alt="ra" class ="img"/></td>
+	<audio id ="ra" src ="Character_Sounds/ra.mp3" </audio>
+	<td><img id= "ya" onclick= "play('ya')" src="Character_Images/ya.jpg" alt="ya" class ="img"/></td>
+	<audio id ="ya" src ="Character_Sounds/ya.mp3" </audio>
+	<td><img id= "ma" onclick= "play('ma')" src="Character_Images/ma.jpg" alt="ma" class ="img"/></td>
+	<audio id ="ma" src ="Character_Sounds/ma.mp3" </audio>
+	<td><img id= "ha" onclick= "play('ha')" src="Character_Images/ha.jpg" alt="ha" class ="img"/></td>
+	<audio id ="ha" src ="Character_Sounds/ha.mp3" </audio>
+	<td><img id= "na" onclick= "play('na')" src="Character_Images/na.jpg" alt="na" class ="img"/></td>
+	<audio id ="na" src ="Character_Sounds/na.mp3" </audio>
+	<td><img id= "ta" onclick= "play('ta')" src="Character_Images/ta.jpg" alt="na" class ="img"/></td>
+	<audio id ="ta" src ="Character_Sounds/ta.mp3" </audio>
+	<td><img id= "sa" onclick= "play('sa')" src="Character_Images/sa.jpg" alt="sa" class ="img"/></td>
+	<audio id ="sa" src ="Character_Sounds/sa.mp3" </audio>
+	<td><img id= "ka" onclick= "play('ka')" src="Character_Images/ka.jpg" alt="ka" class ="img"/></td>
+	<audio id ="ka" src ="Character_Sounds/ka.mp3" </audio>
+	<td><img id= "a" onclick= "play('a')" src="Character_Images/A.jpg" alt="A" class ="img"/></td>
+	<audio id ="a" src ="Character_Sounds/a.mp3" </audio>
+	</tr>
+	<tr>
+	<td><img id= "empty"  src="Character_Images/empty.jpg"  alt="empty" class ="img"/></td>
+	<td><img id= "ri" onclick= "play('ri')" src="Character_Images/ri.jpg"  alt="ri" class ="img"/></td>
+	<audio id ="ri" src ="Character_Sounds/ri.mp3" </audio>
+	<td><img id= "empty"  src="Character_Images/empty.jpg"  alt="empty" class ="img"/></td>
+	<td><img id= "mi" onclick= "play('mi')" src="Character_Images/mi.jpg"  alt="mi" class ="img"/></td>
+	<audio id ="mi" src ="Character_Sounds/mi.mp3" </audio>
+	<td><img id= "hi" onclick= "play('hi')" src="Character_Images/hi.jpg"  alt="hi" class ="img"/></td>
+	<audio id ="hi" src ="Character_Sounds/hi.mp3" </audio>
+	<td><img id= "ni" onclick= "play('ni')" src="Character_Images/ni.jpg"  alt="ni" class ="img"/></td>
+	<audio id ="ni" src ="Character_Sounds/ni.mp3" </audio>
+	<td><img id= "chi" onclick= "play('chi')" src="Character_Images/chi.jpg"  alt="chi" class ="img"/></td>
+	<audio id ="chi" src ="Character_Sounds/chi.mp3" </audio>
+	<td><img id= "shi" onclick= "play('shi')" src="Character_Images/shi.jpg"  alt="shi" class ="img"/></td>
+	<audio id ="shi" src ="Character_Sounds/shi.mp3" </audio>
+	<td><img id= "ki" onclick= "play('ki')" src="Character_Images/ki.jpg"  alt="ki" class ="img"/></td>
+	<audio id ="ki" src ="Character_Sounds/ki.mp3" </audio>
+	<td><img id= "i" onclick= "play('i')" src="Character_Images/i.jpg"  alt="i" class ="img"/></td>
+	<audio id ="i" src ="Character_Sounds/i.mp3" </audio>
+	</tr>
+	<tr>
+	<td><img id= "wo" onclick= "play('wo')" src="Character_Images/wo.jpg"  alt="wo" class ="img"/></td>
+	<audio id ="wo" src ="Character_Sounds/wo.mp3" </audio>
+	<td><img id= "ru" onclick= "play('ru')" src="Character_Images/ru.jpg"  alt="ru" class ="img"/></td>
+	<audio id ="ru" src ="Character_Sounds/ru.mp3" </audio>
+	<td><img id= "yu" onclick= "play('yu')" src="Character_Images/yu.jpg"  alt="yu" class ="img"/></td>
+	<audio id ="yu" src ="Character_Sounds/yu.mp3" </audio>
+	<td><img id= "mu" onclick= "play('mu')" src="Character_Images/mu.jpg"  alt="mu" class ="img"/></td>
+	<audio id ="mu" src ="Character_Sounds/mu.mp3" </audio>
+	<td><img id= "fu" onclick= "play('fu')" src="Character_Images/fu.jpg"  alt="fu" class ="img"/></td>
+	<audio id ="fu" src ="Character_Sounds/fu.mp3" </audio>
+	<td><img id= "nu" onclick= "play('nu')" src="Character_Images/nu.jpg"  alt="nu" class ="img"/></td>
+	<audio id ="nu" src ="Character_Sounds/nu.mp3" </audio>
+	<td><img id= "tsu" onclick= "play('tsu')" src="Character_Images/tsu.jpg"  alt="tsu" class ="img"/></td>
+	<audio id ="tsu" src ="Character_Sounds/tsu.mp3" </audio>
+	<td><img id= "su" onclick= "play('su')" src="Character_Images/su.jpg"  alt="su" class ="img"/></td>
+	<audio id ="su" src ="Character_Sounds/su.mp3" </audio>
+	<td><img id= "ku" onclick= "play('ku')" src="Character_Images/ku.jpg"  alt="ku" class ="img"/></td>
+	<audio id ="ku" src ="Character_Sounds/ku.mp3" </audio>
+	<td><img id= "u" onclick= "play('u')" src="Character_Images/u.jpg"  alt="u" class ="img"/></td>
+	<audio id ="u" src ="Character_Sounds/u.mp3" </audio>
+	</tr>
+	<tr>
+	<td><img id= "empty"  src="Character_Images/empty.jpg"  alt="empty" class ="img"/></td>
+	<td><img id= "re" onclick= "play('re')" src="Character_Images/re.jpg"  alt="re" class ="img"/></td>
+	<audio id ="re" src ="Character_Sounds/re.mp3" </audio>
+	<td><img id= "empty"  src="Character_Images/empty.jpg"  alt="empty" class ="img"/></td>
+	<td><img id= "me" onclick= "play('me')" src="Character_Images/me.jpg"  alt="me" class ="img"/></td>
+	<audio id ="me" src ="Character_Sounds/me.mp3" </audio>
+	<td><img id= "he" onclick= "play('he')" src="Character_Images/he.jpg"  alt="he" class ="img"/></td>
+	<audio id ="he" src ="Character_Sounds/he.mp3" </audio>
+	<td><img id= "ne" onclick= "play('ne')" src="Character_Images/ne.jpg"  alt="ne" class ="img"/></td>
+	<audio id ="ne" src ="Character_Sounds/ne.mp3" </audio>
+	<td><img id= "te" onclick= "play('te')" src="Character_Images/te.jpg"  alt="te" class ="img"/></td>
+	<audio id ="te" src ="Character_Sounds/te.mp3" </audio>
+	<td><img id= "se" onclick= "play('se')" src="Character_Images/se.jpg"  alt="se" class ="img"/></td>
+	<audio id ="se" src ="Character_Sounds/se.mp3" </audio>
+	<td><img id= "ke" onclick= "play('ke')" src="Character_Images/ke.jpg"  alt="ke" class ="img"/></td>
+	<audio id ="ke" src ="Character_Sounds/ke.mp3" </audio>
+	<td><img id= "e" onclick= "play('e')" src="Character_Images/e.jpg"  alt="e" class ="img"/></td>
+	<audio id ="e" src ="Character_Sounds/e.mp3" </audio>
+	</tr>
+	<tr>
+	<td><img id= "n" onclick= "play('n')" src="Character_Images/n.jpg"  alt="n" class ="img"/></td>
+	<audio id ="n" src ="Character_Sounds/n.mp3" </audio>
+	<td><img id= "ro" onclick= "play('ro')" src="Character_Images/ro.jpg"  alt="ro" class ="img"/></td>
+	<audio id ="ro" src ="Character_Sounds/ro.mp3" </audio>
+	<td><img id= "yo" onclick= "play('yo')" src="Character_Images/yo.jpg"  alt="yo" class ="img"/></td>
+	<audio id ="yo" src ="Character_Sounds/yo.mp3" </audio>
+	<td><img id= "mo" onclick= "play('mo')" src="Character_Images/mo.jpg"  alt="mo" class ="img"/></td>
+	<audio id ="mo" src ="Character_Sounds/mo.mp3" </audio>
+	<td><img id= "ho" onclick= "play('ho')" src="Character_Images/ho.jpg"  alt="ho" class ="img"/></td>
+	<audio id ="ho" src ="Character_Sounds/ho.mp3" </audio>
+	<td><img id= "no" onclick= "play('no')" src="Character_Images/no.jpg"  alt="no" class ="img"/></td>
+	<audio id ="no" src ="Character_Sounds/no.mp3" </audio>
+	<td><img id= "to" onclick= "play('to')" src="Character_Images/to.jpg"  alt="to" class ="img"/></td>
+	<audio id ="to" src ="Character_Sounds/to.mp3" </audio>
+	<td><img id= "so" onclick= "play('so')" src="Character_Images/so.jpg"  alt="so" class ="img"/></td>
+	<audio id ="so" src ="Character_Sounds/so.mp3" </audio>
+	<td><img id= "ko" onclick= "play('ko')" src="Character_Images/ko.jpg"  alt="ko" class ="img"/></td>
+	<audio id ="ko" src ="Character_Sounds/ko.mp3" </audio>
+	<td><img id= "o" onclick= "play('o')" src="Character_Images/o.jpg"  alt="o" class ="img"/></td>
+	<audio id ="o" src ="Character_Sounds/o.mp3" </audio>
+	</tr>
+ </tbody>
+</table>
+</div> 
+
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="zebra_dialog/public/javascript/zebra_dialog.js"></script>    
+<link rel="stylesheet" href="zebra_dialog/public/css/flat/zebra_dialog.css" type="text/css">
+    
+<div id="dic">
+<button id = "A"  class = "myButton">Traing Set A</button><button id = "I" class = "myButton">Traing Set I</button><button id = "U" class = "myButton">Traing Set U</button><button id = "E" class = "myButton">Traing Set E</button><button id = "O" class = "myButton">Traing Set O</button>       
+</div>
+    
+<div id="dic">   
+ <button id = "register" class = "myButton">Click here to Register</button> 
+ <button id = "login" class = "myButton">Click here to login</button>   
+</div>  
+
+    
+<div id="list">   
+ <p><strong>Resoucres used</strong></p>
+<ul>
+  <li>Animated gifs: commons.wikimedia.org</li>
+  <li>Character sounds: guidetojapanese.org</li>
+  <li>Images: en.wikipedia.org</li>
+  <li>Quiz Template: github.com/jrue/JavaScript-Quiz</li>
+  <li>Modal Box API: stefangabos.ro/jquery/zebra-dialog/</li>
+  <li>AJAX Login/Register Script: codingcage.com/</li>
+</ul>
+</div>    
+<script src="assignment3.js"></script>
+    
+</html>
+
